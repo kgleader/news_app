@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:step_04/components/news_card.dart';
-import 'package:step_04/constants/country_code.dart';
-import 'package:step_04/constants/text_constants.dart';
-import 'package:step_04/models/top_news.dart';
-import 'package:step_04/services/fetch_service.dart';
-import 'package:step_04/theme/colors.dart';
-import 'package:step_04/views/search_view.dart';
+import 'package:step4/components/news_card.dart';
+import 'package:step4/constants/country_code.dart';
+import 'package:step4/constants/text_constants.dart';
+import 'package:step4/models/top_news.dart';
+import 'package:step4/services/fetch_service.dart';
+import 'package:step4/theme/colors.dart';
+import 'package:step4/views/search_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});

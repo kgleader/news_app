@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:step_04/theme/text_styles.dart';
+import 'package:step4/theme/text_styles.dart';
 
 class DetailTitle extends StatelessWidget {
   const DetailTitle({super.key, required this.title});

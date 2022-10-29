@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:step_04/theme/colors.dart';
-import 'package:step_04/theme/text_styles.dart';
+import 'package:step4/theme/colors.dart';
+import 'package:step4/theme/text_styles.dart';
 
 class DetailDateTime extends StatelessWidget {
   const DetailDateTime({super.key, required this.article});

@@ -1,9 +1,9 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:step_04/constants/api_constants.dart';
-import 'package:step_04/models/article.dart';
-import 'package:step_04/theme/text_styles.dart';
-import 'package:step_04/views/detail_view.dart';
+import 'package:step4/constants/api_constants.dart';
+import 'package:step4/models/article.dart';
+import 'package:step4/theme/text_styles.dart';
+import 'package:step4/views/detail_view.dart';
 
 class NewsCard extends StatelessWidget {
   const NewsCard({super.key, required this.news});
@@ -30,8 +30,10 @@ class NewsCard extends StatelessWidget {
                 flex: 3,
                 child: CachedNetworkImage(
                   imageUrl: news.urlToImage ?? ApiConst.defaultImage,
-                  placeholder: (context, url) => Image.asset('assets/news_loading.webp'),
-                  errorWidget: (context, url, e) => Image.asset('assets/news_error.jpeg'),
+                  placeholder: (context, url) =>
+                      Image.asset('assets/news_loading.webp'),
+                  errorWidget: (context, url, e) =>
+                      Image.asset('assets/news_error.jpeg'),
                   fit: BoxFit.fitWidth,
                 ),
               ),

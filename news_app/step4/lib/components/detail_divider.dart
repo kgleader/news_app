@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:step_04/theme/colors.dart';
+import 'package:step4/theme/colors.dart';
 
 class DetailDivider extends StatelessWidget {
   const DetailDivider({super.key});

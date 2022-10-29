@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:step_04/constants/text_constants.dart';
-import 'package:step_04/theme/colors.dart';
+import 'package:step4/constants/text_constants.dart';
+import 'package:step4/theme/colors.dart';
 
 class ReadMoreButton extends StatelessWidget {
   const ReadMoreButton({super.key, this.onPressed});

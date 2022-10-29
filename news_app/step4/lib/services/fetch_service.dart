@@ -3,8 +3,8 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-import 'package:step_04/constants/api_constants.dart';
-import 'package:step_04/models/top_news.dart';
+import 'package:step4/constants/api_constants.dart';
+import 'package:step4/models/top_news.dart';
 
 class NewsRepo {
   final http.Client client = http.Client();

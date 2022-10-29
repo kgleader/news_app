@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 
-import 'package:step_04/models/article.dart';
+import 'package:step4/models/article.dart';
 
 class TopNews {
   const TopNews({
@@ -17,7 +17,8 @@ class TopNews {
     return TopNews(
       status: json["status"],
       totalResults: json["totalResults"],
-      articles: List<Article>.from((json["articles"]).map((e) => Article.jsonDonKelgen(e))),
+      articles: List<Article>.from(
+          (json["articles"]).map((e) => Article.jsonDonKelgen(e))),
     );
   }
 }
